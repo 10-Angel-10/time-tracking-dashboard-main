@@ -1,3 +1,33 @@
+Angel Cuevas
+
+
+12/5/12
+
+
+time tracker
+
+
+i made a website that takes data of time that was spent over days weeks and months
+
+
+PeerReview: Juan Heredia
+
+"The buttons work fine and the data changes accordingly, there's no responsiveness at the time of review.
+
+The card background is too dark, and some of the color for the background in the cards icons is off slightly from the figma.
+
+Only the work card has a hover effect and it seems to not work properly, making the whole thing transparent for some reason.
+
+Also try pushing down the whole thing so it's more on the center of the screen."
+
+
+
+
+
+
+
+
+
 # Frontend Mentor - Time tracking dashboard
 
 ![Design preview for the Time tracking dashboard coding challenge](./design/desktop-preview.jpg)
