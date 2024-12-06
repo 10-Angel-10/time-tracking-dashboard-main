@@ -29,6 +29,11 @@ getdata();
 function time(data) {
     
     dailyBtn.addEventListener('click', function() {
+        
+        dailyBtn.className = "btnText1 btnHover"
+        weeklyBtn.className = "btn2 btnHover"
+        monthlyBtn.className = "btn3 btnHover" 
+
         workText2.innerText = `${data[0].timeframes.daily.current}hrs`;
         workText3.innerText = `Yesterday - ${data[0].timeframes.daily.previous}hrs`;
         
@@ -50,6 +55,11 @@ function time(data) {
     
    
     weeklyBtn.addEventListener('click', function() {
+
+        dailyBtn.className = "btn1 btnHover"
+        weeklyBtn.className = "btnText2 btnHover"
+        monthlyBtn.className = "btn3 btnHover"
+
         workText2.innerText = `${data[0].timeframes.weekly.current}hrs`;
         workText3.innerText = `Last Week - ${data[0].timeframes.weekly.previous}hrs`;
         
@@ -71,6 +81,11 @@ function time(data) {
     
    
     monthlyBtn.addEventListener('click', function() {
+
+        dailyBtn.className = "btn1 btnHover"
+        weeklyBtn.className = "btn2 btnHover"
+        monthlyBtn.className = "btnText3 btnHover"
+
         workText2.innerText = `${data[0].timeframes.monthly.current}hrs`;
         workText3.innerText = `Last Month - ${data[0].timeframes.monthly.previous}hrs`;
         
