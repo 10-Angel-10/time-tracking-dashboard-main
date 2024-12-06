@@ -21,6 +21,18 @@
     grid-row: 1 / 3;
 }
 
+.jeremypic{
+    height: 70px;
+    border: 3px solid;
+    border-color: white;
+    border-radius: 50px;
+}
+
+.jeremydiv{
+margin-top: 20px;
+margin-left: 25px;
+
+}
 
 .jeremyCard{
     background-color: rgb(95, 62, 242);
@@ -31,6 +43,22 @@
 }
 
 
+.jeremtText1{
+    margin-left: 25px;
+    margin-top: 40px;
+    color: rgba(255, 255, 255, 0.466);
+
+}
+
+
+.jeremtText2{
+    margin-left: 25px;
+    margin-top: 1px;
+    color: white;
+    font-size: 37px;
+    font-family:verdana ;
+}
+
 .BtnsBg{
     background-color: rgb(13, 16, 63);
     grid-column: 1 / 7;
@@ -39,7 +67,59 @@
 
 }
 
+.btn1{
+    margin-top: 400px;
+    margin-left: 25px;
+    background: none;
+    border: none;
+    font-size: 17px;
+    color: rgb(98, 98, 206);
+}
 
+.btn2{
+    margin-top: 25px;
+    margin-left: 25px;
+    background: none;
+    border: none;
+    font-size: 17px;
+    color: rgb(98, 98, 206);
+
+}
+
+.btn3{
+    margin-top: 25px;
+    margin-left: 25px;
+    background: none;
+    border: none;
+    font-size: 17px;
+    color: rgb(98, 98, 206);
+
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dots{
+margin-top: 36px;
+margin-right: 20px;
+}
+
+.dotBtn{
+    background: none;
+    border: none;
+    font-size: 30px;
+    color: white;
+}
+
+#hover:hover{
+    background-color: rgba(255, 255, 255, 0.114);
+}
+
+#dotsHover:has(#work-ellipsis:hover) {
+    background-color:  hsl(235, 46%, 20%);
+}
 
 .workGrid{
     display: grid;
@@ -50,6 +130,7 @@
     background-color: rgb(221, 130, 112);
     border-radius: 20px;
     height: 264px;
+    
 
 }
 
@@ -72,7 +153,109 @@
 
 }
 
+.text1{
+    margin-left: 40px;
+    margin-top: 30px;
+    font-size: 18px;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}   
 
+.workText2{
+    margin-left: 40px;
+    margin-top: 1px;
+    color: white;
+    font-size: 50px;
+    font-family:verdana ;
+
+}
+
+.workText3{
+    margin-left: 40px;
+    margin-top: -40px;
+    color: rgb(98, 98, 206);
+
+}
+
+.playText2{
+    margin-left: 40px;
+    margin-top: 1px;
+    color: white;
+    font-size: 50px;
+    font-family:verdana ;
+
+}
+
+.playText3{
+    margin-left: 40px;
+    margin-top: -40px;
+    color: rgb(98, 98, 206);
+
+}
+
+.studyText2{
+    margin-left: 40px;
+    margin-top: 1px;
+    color: white;
+    font-size: 50px;
+    font-family:verdana ;
+
+}
+
+.studyText3{
+    margin-left: 40px;
+    margin-top: -40px;
+    color: rgb(98, 98, 206);
+
+}
+
+.exerciseText2{
+    margin-left: 40px;
+    margin-top: 1px;
+    color: white;
+    font-size: 50px;
+    font-family:verdana ;
+
+}
+
+.exerciseText3{
+    margin-left: 40px;
+    margin-top: -40px;
+    color: rgb(98, 98, 206);
+
+}
+
+.socialText2{
+    margin-left: 40px;
+    margin-top: 1px;
+    color: white;
+    font-size: 50px;
+    font-family:verdana ;
+
+}
+
+.socialText3{
+    margin-left: 40px;
+    margin-top: -40px;
+    color: rgb(98, 98, 206);
+
+}
+
+.selfCareText2{
+    margin-left: 40px;
+    margin-top: 1px;
+    color: white;
+    font-size: 50px;
+    font-family:verdana ;
+
+}
+
+.selfCareText3{
+    margin-left: 40px;
+    margin-top: -40px;
+    color: rgb(98, 98, 206);
+
+}
 
 
 .playGrid{
